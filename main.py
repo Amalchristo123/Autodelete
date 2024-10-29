@@ -4,7 +4,7 @@ import os
 import asyncio
 from pyrogram.enums import ChatMembersFilter
 
-API_ID = "21684037d"
+API_ID = "21684037"
 API_HASH = "cc4dda353688d66c94af69ca48a87bdb"
 BOT_TOKEN = "8164925669:AAFrDltyWMahWLEtvnVbdx8-s1PjC-DpL8E"
 

@@ -21,7 +21,7 @@ async def start(client, message):
 @app.on_message(filters.chat(CHANNEL_IDS))
 async def delete_channel_messages(client, message):
     try:
-        await asyncio.sleep(5)  
+        await asyncio.sleep(14400)  
         await message.delete()
         print(f"Deleted message from channel: {message.text}") 
     except Exception as e:
@@ -30,7 +30,7 @@ async def delete_channel_messages(client, message):
 @app.on_message(filters.chat(GROUP_IDS))
 async def delete_group_messages(client, message):
     try:
-        await asyncio.sleep(6)
+        await asyncio.sleep(300)
         await message.delete()
         print(f"Deleted message from group: {message.text}")
     except Exception as e:
